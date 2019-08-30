@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bartender | Profile</title>
+
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link id="switcher" href="css/theme-color.css" rel="stylesheet">
+    <link href="css/slide-in.css" rel="stylesheet" media="all">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    <header id="aa-header">
+        <div class="aa-header-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="aa-header-bottom-area">
+                            <div class="aa-logo">
+                                <a href="index">
+                                    <span class="fa fa-glass"></span>
+                                    <p><strong>Bartender</strong></p>
+                                </a>
+                            </div>
+                            <div class="aa-cartbox">
+                                <a class="aa-cart-link" href="logout">
+                                    <span class="aa-cart-title">Logout</span>
+                                </a>
+                            </div>
+                            <div class="aa-search-box">
+                                <form action="/search">
+                                    <input type="text" name="search_text" placeholder="Search recipe here">
+                                    <button type="submit"><span class="fa fa-search"></span></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="aa-catg-head-banner">
+        <img src="img/profile-1920x300.jpg" alt="fashion img">
+        <div class="aa-catg-head-banner-area">
+            <div class="container">
+                <div class="aa-catg-head-banner-content">
+                    <h2>Welcome To Profile Page</h2>
+                    <input type="text" id="aa-profile-userinfor-username" value="<%= locals.profile_nametext %>"
+                        readonly="true" ondblclick="this.readOnly='';" onblur="this.readOnly='true';">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="aa-profile-contain">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="aa-profile-area">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="aa-profile-create-recipe">
+                                    <a href="create">
+                                        <span class="fa fa-plus-circle"></span>
+                                        <p class="aa-profile-create-recipe-text">Create Recipe</p>
+                                    </a>
+                                </div>
+                                <div class="aa-profile-update-recipe">
+                                    <span class="fa fa-arrow-circle-up"></span>
+                                    <p class="aa-profile-update-recipe-text">Update Recipe</p>
+                                    <div class="aa-profile-update">
+                                        <ul class="update-list">
+                                            <%- locals.profile_updateList %>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="aa-profile-favorite-recipe">
+                                    <span class="fa fa-gratipay"></span>
+                                    <p class="aa-profile-favorite-recipe-text">Favorite List</p>
+                                    <div class="aa-profile-favorite">
+                                        <ul class="favorite-list">
+                                            <%- locals.profile_favoriteList %>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="aa-subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="aa-subscribe-area">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="aa-footer">
+        <div class="aa-footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="aa-footer-bottom-area">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/recipe.js"></script>
+</body>
+
+</html>

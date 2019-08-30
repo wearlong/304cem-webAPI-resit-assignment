@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bartender| Login</title>
+
+  <link href="css/font-awesome.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link id="switcher" href="css/theme-color.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+  <header id="aa-header">
+    <div class="aa-header-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="aa-header-bottom-area">
+              <div class="aa-logo">
+                <a href="index">
+                  <span class="fa fa-glass"></span>
+                  <p><strong>Bartender</strong></p>
+                </a>
+              </div>
+              <div class="aa-search-box">
+                <form action="/search">
+                  <input type="text" name="search_text" placeholder="Search recipe here">
+                  <button type="submit"><span class="fa fa-search"></span></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="aa-catg-head-banner">
+    <img src="img/login-1920x300.jpg" alt="fashion img">
+    <div class="aa-catg-head-banner-area">
+      <div class="container">
+        <div class="aa-catg-head-banner-content">
+          <h2>Login Or Register Page</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="aa-myaccount">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-myaccount-area">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="aa-myaccount-login">
+                  <h4>Login</h4>
+                  <form method="POST" action="/loginPart" class="aa-login-form">
+                    <label for="">Email address<span>*</span></label>
+                    <input type="email" required="required" placeholder="Email" name="login_email">
+                    <label for="">Password<span>*</span></label>
+                    <input type="password" required="required" placeholder="Password" name="login_password">
+                    <button type="submit" class="aa-browse-btn">Login</button>
+                    <p class="logintext"><%= locals.logintext %></p>
+                  </form>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="aa-myaccount-register">
+                  <h4>Register</h4>
+                  <form method="POST" action="/registerPart" class="aa-login-form">
+                    <label for="">Email address<span>*</span></label>
+                    <input type="email" required="required" placeholder="Email" name="register_email">
+                    <label for="">Username<span>*</span></label>
+                    <input type="text" required="required" placeholder="Username" name="register_username">
+                    <label for="">Password<span>*</span></label>
+                    <input type="password" required="required" placeholder="Password" name="register_password"
+                      minlength="6">
+                    <button type="submit" class="aa-browse-btn aa-register-btn">Register</button>
+                    <p class="registertext"><%= locals.registertext %></p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="aa-footer">
+    <div class="aa-footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="aa-footer-bottom-area">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/recipe.js"></script>
+
+</body>
+
+</html>

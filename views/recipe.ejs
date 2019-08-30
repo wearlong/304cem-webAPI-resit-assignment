@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bartender | Recipe Page</title>
+
+  <link href="css/font-awesome.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link id="switcher" href="css/theme-color.css" rel="stylesheet">
+  <link href="css/slide-in.css" rel="stylesheet" media="all">
+  <link href="css/style.css" rel="stylesheet">
+
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+  <header id="aa-header">
+    <div class="aa-header-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="aa-header-bottom-area">
+              <div class="aa-logo">
+                <a href="index">
+                  <span class="fa fa-glass"></span>
+                  <p><strong>Bartender</strong></p>
+                </a>
+              </div>
+              <div class="aa-cartbox">
+                <a class="aa-cart-link" href="<%= locals.recipe_loghref %>">
+                  <span class="aa-cart-title" id="login_state"><%= locals.recipe_logtext %></span>
+                </a>
+              </div>
+              <div class="aa-search-box">
+                <form action="/search">
+                  <input type="text" name="search_text" placeholder="Search recipe here">
+                  <button type="submit"><span class="fa fa-search"></span></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="aa-catg-head-banner">
+    <img src="img/recipe-1920x300.jpg" alt="fashion img">
+    <div class="aa-catg-head-banner-area">
+      <div class="container">
+        <div class="aa-catg-head-banner-content">
+          <h2>Recipe Page</h2>
+          <div class="head-banner-click">
+            <span class="fa <%= locals.recipe_favoriteState %>"></span>
+            <div class="head-banner-ring"></div>
+            <div class="head-banner-ring2"></div>
+            <p class="head-banner-info">Added to favourites!!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="aa-blog-archive">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-blog-archive-area">
+            <div class="row">
+              <div class="aa-blog-content aa-blog-details">
+                <article class="aa-blog-content-single">
+                  <h2><a href="#" id="recipe_title_text"><%= locals.recipe_recipetext %></a></h2>
+                  <figure class="aa-blog-img">
+                    <a href="#"><img src="<%= locals.recipe_recipeImg %>"></a>
+                  </figure>
+                  <h3>Description: </h3>
+                  <p><%= locals.recipe_desctext %></p>
+                  <h3>Ingredients: </h3>
+                  <blockquote>
+                    <ul>
+                      <%- locals.recipe_ingredHtml %>
+                    </ul>
+                  </blockquote>
+                  <h3>Steps: </h3>
+                  <blockquote>
+                    <ul>
+                      <%- locals.recipe_stepHtml %>
+                    </ul>
+                  </blockquote>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="aa-footer">
+    <div class="aa-footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="aa-footer-bottom-area">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/recipe.js"></script>
+
+</body>
+
+</html>

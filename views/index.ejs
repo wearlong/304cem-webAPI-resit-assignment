@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bartender | Home</title>
+
+  <link href="css/font-awesome.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link id="switcher" href="css/theme-color.css" rel="stylesheet">
+  <link href="css/slide-in.css" rel="stylesheet" media="all">
+  <link href="css/style.css" rel="stylesheet">
+
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+  <header id="aa-header">
+    <div class="aa-header-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="aa-header-bottom-area">
+              <div class="aa-logo">
+                <a href="index">
+                  <span class="fa fa-glass"></span>
+                  <p><strong>Bartender</strong></p>
+                </a>
+              </div>
+              <div class="aa-cartbox">
+                <a class="aa-cart-link" href="<%= locals.index_loghref %>">
+                  <span class="aa-cart-title"><%= locals.index_logtext %></span>
+                </a>
+              </div>
+              <div class="aa-search-box">
+                <form action="/search">
+                  <input type="text" name="search_text" placeholder="Search recipe here">
+                  <button type="submit"><span class="fa fa-search"></span></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="aa-slider">
+    <div class="aa-slider-area">
+      <div id="sequence" class="seq">
+        <div class="seq-screen">
+          <ul class="seq-canvas">
+            <li>
+              <div class="seq-model">
+                <img data-seq src="img/aa-slider-img-1.jpg" />
+              </div>
+            </li>
+            <li>
+              <div class="seq-model">
+                <img data-seq src="img/aa-slider-img-2.jpg" />
+              </div>
+            </li>
+            <li>
+              <div class="seq-model">
+                <img data-seq src="img/aa-slider-img-3.jpg" />
+              </div>
+            </li>
+            <li>
+              <div class="seq-model">
+                <img data-seq src="img/aa-slider-img-4.jpg" />
+              </div>
+            </li>
+            <li>
+              <div class="seq-model">
+                <img data-seq src="img/aa-slider-img-5.jpg" />
+              </div>
+            </li>
+          </ul>
+        </div>
+        <fieldset class="seq-nav" aria-label="Slider buttons">
+          <a type="button" class="seq-prev" aria-label="Previous"><span class="fa fa-angle-left"></span></a>
+          <a type="button" class="seq-next" aria-label="Next"><span class="fa fa-angle-right"></span></a>
+        </fieldset>
+      </div>
+    </div>
+  </section>
+
+  <section id="aa-product">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="aa-product-area">
+              <div class="aa-product-inner">
+                <ul class="nav nav-tabs aa-products-tab">
+                  <span class="fa fa-thumbs-up"></span><span class="aa-product-recommend">Recommended Recipes</span>
+                </ul>
+                <div class="tab-content">
+                  <ul class="aa-product-catg">
+                    <li>
+                      <figure>
+                        <a class="aa-product-img" href="/recipe=Bloody Mary"><img
+                            src="img/Bloody Mary.jpg"></a>
+                        <figcaption>
+                          <h4 class="aa-product-title"><a href="/recipe=Bloody Mary">Bloody Mary</a></h4>
+                        </figcaption>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <a class="aa-product-img" href="/recipe=Vodka Mint"><img
+                            src="img/Vodka Mint.jpg"></a>
+                        <figcaption>
+                          <h4 class="aa-product-title"><a href="/recipe=Vodka Mint">Vodka Mint</a></h4>
+                        </figcaption>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <a class="aa-product-img" href="/recipe=Polynesian Pick Me Up"><img
+                            src="img/Polynesian Pick Me Up.jpg"></a>
+                        <figcaption>
+                          <h4 class="aa-product-title"><a href="/recipe=Polynesian Pick Me Up">Polynesian Pick Me Up</a></h4>
+                        </figcaption>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <a class="aa-product-img" href="/recipe=Ramos Gin Fizz"><img src="img/Ramos Gin Fizz.jpg"></a>
+                        <figcaption>
+                          <h4 class="aa-product-title"><a href="/recipe=Ramos Gin Fizz">Ramos Gin Fizz</a></h4>
+                        </figcaption>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <a class="aa-product-img" href="/recipe=Sangria"><img
+                            src="img/Sangria.jpg"></a>
+                        <figcaption>
+                          <h4 class="aa-product-title"><a href="/recipe=Sangria">Sangria</a></h4>
+                        </figcaption>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <a class="aa-product-img" href="/recipe=Peach Mimosa"><img
+                            src="img/Peach Mimosa.jpg"></a>
+                        <figcaption>
+                          <h4 class="aa-product-title"><a href="/recipe=Peach Mimosa">Peach Mimosa</a></h4>
+                        </figcaption>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <a class="aa-product-img" href="/recipe=Twist Of A Screwdriver"><img
+                            src="img/Twist Of A Screwdriver.jpg"></a>
+                        <figcaption>
+                          <h4 class="aa-product-title"><a href="/recipe=Twist Of A Screwdriver">Twist Of A Screwdriver</a></h4>
+                        </figcaption>
+                      </figure>
+                    </li>
+                    <li>
+                      <figure>
+                        <a class="aa-product-img" href="/recipe=Perfect Peach Julep"><img
+                            src="img/Perfect Peach Julep.jpg"></a>
+                        <figcaption>
+                          <h4 class="aa-product-title"><a href="/recipe=Perfect Peach Julep">Perfect Peach Julep</a></h4>
+                        </figcaption>
+                      </figure>
+                    </li>
+                  </ul>
+                </div>t
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="aa-footer">
+    <div class="aa-footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="aa-footer-bottom-area">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/sequence.js"></script>
+  <script src="js/slide-in.js"></script>
+  <script src="js/recipe.js"></script>
+
+</body>
+
+</html>

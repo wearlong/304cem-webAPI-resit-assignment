@@ -1,0 +1,182 @@
+{
+  "recipes": {
+	  "Bloody Mary": {
+      "Description": "Say Bloody Mary three times before bedtime. When you wake up in the morning, be sure to have one.",
+     	"Ingredients": [
+        "1 1/2 ounces vodka (or peppered vodka for spice)",
+      	"3 ounces tomato juice",
+      	 "1/2 ounce lemon juice",
+		    "Dash or two Tabasco sauce",
+		  	"Dash or two Worcestershire sauce",
+		  	"Pinch of celery salt",
+		  	"Pinch of peppe",
+		  	"Dab of horseradish" 
+    	],
+  		"Steps": [
+     		"1. Chill a cocktail shaker.",
+     		"2. Add vodka, tomato juice, lemon juice, Tabasco sauce, and Worcestershire sauce.",
+	  		"3. Add salt, pepper, and horseradish to taste.",
+		  	"4. Pour into a chilled collins glass or beer mug.",
+			  "5. Garnish with a lime slice or a celery stalk. Also preferred as garnishes: pickled green beans, okra pods, and garlic stuffed olives."
+    	]
+  	},
+	  "Vodka Mint": {
+    	"Description": "Caution: An oft-used tool for sweet-faced motherly interrogators.",
+      "Ingredients": [
+      	"6 ounces frozen limeade",
+        "6 ounces vodka",
+  	    "17 mint leaves"
+      ],
+      "Steps": [
+        "1. Combine limeade, vodka, and mint leaves with enough ice to fill blender.",
+    		"2. Blend at highest speed until slushy. Pour into cocktail glasses.",
+		  	"3. Top with thin slices of lime and mint leaves."
+    	]
+  	},
+	  "Polynesian Pick Me Up": {
+      "Description": "No, this does not involve carting a virgin off to the volcano. Your fate is much more pleasant.",
+     	"Ingredients": [
+        "4 ounces pineapple juice",
+        "1 1/2 ounces vodka",
+       	"1/2 teaspoon curry powder",
+			  "1/2 teaspoon lemon juice",
+			  "1 tablespoon cream",
+			  "1 tablespoon cream",
+			  "2 dashes Tabasco sauce",
+			  "4 ounces crushed ice"
+      ],
+      "Steps": [
+      	"1. Pour all ingredients into a blender.",
+      	"2. Blend for 10 seconds on high speed.",
+			  "3. Pour into a chilled old-fashioned glass.",
+			  "4. Dust with cayenne pepper."
+    	]
+  	},
+	  "Ramos Gin Fizz": {
+    	"Description": "Fun fact: Whenever legendary Louisiana governor Huey P. Long traveled to New York City, he took his own New Orleans bartender so he could have this drink made right.",
+      "Ingredients": [
+     		"1 1/2 ounces gin",
+    		"2 tablespoons cream",
+    		"1/2 ounce lemon juice",
+        "1 egg white",
+        "1 tablespoon powdered sugar",
+        "3 to 4 drops of orange flower water",
+        "1/2 ounce lime juice",
+        "1/4 ounce club soda"
+    	],
+  		"Steps": [
+     		"1. Fill cocktail shaker with ice.",
+    		"2. Add gin, cream, lemon juice, egg white, powdered sugar, orange flower water, and lime juice.",
+	  		"3. Shake.",
+		  	"4. Strain into a goblet.",
+        "5. Top with chilled club soda."
+    	]
+  	},
+	  "Sangria": {
+  		"Description": "Perfect setting: pitcher for two, Melrose Avenue, a night of endless possibilities.",
+  	  "Ingredients": [
+        "1/5 dry red wine",
+        "1 ripe peach",
+    		"6 slices lemon",
+	  		"1/2 ounce cognac",
+		  	"1 ounce triple sec",
+			  "1 ounce maraschino liqueur",
+			  "1  tablespoon sugar",
+			  "1 hole orange",
+			  "6 ounces chilled club soda"
+    	],
+      "Steps": [
+        "1. Pour wine into a glass pitcher.",
+    		"2. Add peeled and sliced peach and lemon slices.",
+		  	"3. Add cognac, triple sec, maraschino liqueur, and sugar.",
+		  	"4. Stir to dissolve sugar.",
+			  "5. Carefully place the orange in the pitcher.",
+		  	"6. Let mixture marinate at room temperature for at least 1 hour.",
+		  	"7. Add soda and 1 tray of ice cubes to pitcher.",
+		  	"8. Stir.",
+		  	"9. Pour into wine goblets."
+      ]
+    },
+	  "Peach Mimosa": {
+      "Description": "Perfect setting: pitcher for two, Melrose Avenue, a night of endless possibilities.",
+     	"Ingredients": [
+    		"1 ounce peach schnapps",
+    		"Orange juice",
+  			" 6 slices lemon",
+	    	"Champagne"
+    	],
+    	"Steps": [
+    		"1. Pour peach schnapps into a champagne flute.",
+    		"2. Add enough orange juice to fill half of the glass.",
+			  "3. Top with champagne."
+    	]
+  	},
+	  "Twist Of A Screwdriver": {
+  		"Description": "Everybody wants a turn.",
+    	"Ingredients": [
+    		"3 1/2 cups orange juice",
+     		"4 ounces vodka",
+   			"2 teaspoons lemon juice",
+	  		"2 teaspoons triple sec"
+   		],
+   		"Steps": [ 
+     		"1. Combine all ingredients in a pitcher.",
+    		"2. Stir.",
+	  		"3. Chill in refrigerator.",
+		  	"4. Pour into highball glasses with ice.",
+	  		"5. Garnish with orange slices."
+   		]
+   	},
+	  "Perfect Peach Julep": {
+  		"Description": "Even more Southern than the mint julep—if that’s possible.",
+   		"Ingredients": [
+      	"1 medium fresh chilled peach",
+      	"2 ounces bourbon",
+     		"Crushed ice",
+    		"Mint sprigs"
+  		],
+   		"Steps": [
+    		"1. Peel, pit, and slice peach.",
+    		"2. Puree the peach in a blender.",
+	  		"3. Add sugar and process.",
+		  	"4. Stir in bourbon.",
+			  "5. Pour over crushed ice in silver julep cup.",
+		  	"6. Garnish with mint springs."
+  		]
+  	},
+  	"Sea Breeze": {
+  		"Description": "Drink while watching America’s Cup. Wish for a sailboat of your own.",
+  	  "Ingredients": [
+  	  	"1 1/2 ounces gin",
+      	"3/4 ounce apricot flavored brandy",
+      	"1/4 ounce grenadine",
+			  "1 ounce lemon juice",
+			  "Club soda",
+			  "Mint sprigs"
+    	],
+      "Steps": [
+      	"1. Build gin, brandy, grenadine, and lemon juice in a highball glass.",
+      	"2. Add ice.",
+		  	"3. Fill with club soda.",
+		  	"4. Add mint sprigs."
+      ]
+    },
+	  "Cape Coda": {
+      "Description": "Conjures up morning memories from Martha’s Vineyard. Even if you’ve never visited.",
+     	"Ingredients": [
+    		"1 1/2 ounces vodka",
+    		"1/2 ounce lime juice",
+   			"1 ounce cranberry juice",
+			  "1/2 teaspoon sugar"
+    	],
+   		"Steps": [
+    		"1. Fill cocktail shaker with ice.",
+    		"2. Add vodka, juices, and sugar.",
+	  		"3. Shake.",
+		  	"4. Strain into cocktail glass."
+    	]
+    }
+  }
+}
+
+

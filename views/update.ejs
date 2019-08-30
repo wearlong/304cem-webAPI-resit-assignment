@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bartender | Update Recipe</title>
+
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link id="switcher" href="css/theme-color.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+    <header id="aa-header">
+        <div class="aa-header-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="aa-header-bottom-area">
+                            <div class="aa-logo">
+                                <a href="index">
+                                    <span class="fa fa-glass"></span>
+                                    <p><strong>Bartender</strong></p>
+                                </a>
+                            </div>
+                            <div class="aa-cartbox">
+                                <a class="aa-cart-link" href="<%= locals.update_loghref %>">
+                                    <span class="aa-cart-title"><%= locals.update_logtext %></span>
+                                </a>
+                            </div>
+                            <div class="aa-search-box">
+                                <form action="/search">
+                                    <input type="text" name="search_text" placeholder="Search recipe here">
+                                    <button type="submit"><span class="fa fa-search"></span></button>
+                                  </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="aa-catg-head-banner">
+        <img src="img/update-1920x300.jpg" alt="fashion img">
+        <div class="aa-catg-head-banner-area">
+            <div class="container">
+                <div class="aa-catg-head-banner-content">
+                    <h2>Update Recipe</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="create">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="create-area">
+                        <form action="">
+                            <div class="create-left">
+                                <div class="panel-group" id="accordion">
+                                    <div class="panel panel-default aa-create-base">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                                    Recipe Base Information
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <label>Recipe Title<span>*</span></label>
+                                                <input type="text" placeholder="Title" id="update_recipeTitle" value="<%= locals.update_title %>" readonly>
+                                                <label>Recipe Description<span>*</span></label>
+                                                <textarea type="text" placeholder="Description"
+                                                id="update_recipedesc"><%= locals.update_description %></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default aa-create-ingredient">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion"
+                                                    href="#collapseThree">
+                                                    Ingredients
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseThree" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="aa-create-ingredient-inline">
+                                                            <label>Ingredient 1<span>*</span></label>
+                                                            <button
+                                                                class="fa fa-plus-square add-ingredient-field"></button>
+                                                            <%- locals.update_ingred %>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default aa-create-step">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                                    Steps
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseFour" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="aa-create-step-inline">
+                                                            <label>Step 1<span>*</span></label>
+                                                            <button class="fa fa-plus-square add-step-field"></button>
+                                                            <%- locals.update_step %>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="create-recipe">
+                                    <button class="aa-create-recipe-btn" id="update_recipe_btn">Update Recipe</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="aa-footer">
+        <div class="aa-footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="aa-footer-bottom-area">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/recipe.js"></script>
+
+</body>
+
+</html>
