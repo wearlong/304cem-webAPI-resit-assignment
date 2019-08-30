@@ -1,0 +1,122 @@
+h2 {
+  color: #ffbf00;
+}
+
+.aa-primary-btn:hover, .aa-primary-btn:focus {
+  color: #ffbf00;
+  border-color: #ffbf00;
+}
+
+.aa-secondary-btn {
+  color: #ffbf00;
+}
+
+.aa-secondary-btn:hover, .aa-secondary-btn:focus {
+  background-color: #ffbf00;
+}
+
+.aa-browse-btn {
+  background-color: #ffbf00;
+  border: 1px solid #ffbf00;
+}
+
+#aa-header .aa-header-bottom .aa-header-bottom-area .aa-logo a>span {
+  color: #ffbf00;
+}
+
+#aa-header .aa-header-bottom .aa-header-bottom-area .aa-logo a strong {
+  color: #ffbf00;
+}
+
+#aa-header .aa-header-bottom .aa-header-bottom-area .aa-search-box button {
+  background-color: #ffbf00;
+}
+
+#aa-header .aa-header-bottom .aa-cartbox .aa-cart-link {
+  color: #ffbf00;
+}
+
+#aa-header .aa-header-bottom .aa-cartbox .aa-cart-link .aa-cart-notify {
+  border: 1px solid #ffbf00;
+  color: #ffbf00;
+}
+
+#aa-header .aa-header-bottom .aa-cartbox .aa-cart-link .aa-cart-notify:after {
+  border-top-color: #ffbf00;
+}
+
+#aa-header .aa-header-bottom .aa-cartbox .aa-cartbox-summary ul li .aa-remove-product:hover, #aa-header .aa-header-bottom .aa-cartbox .aa-cartbox-summary ul li .aa-remove-product:focus {
+  border-color: #ffbf00;
+}
+
+#aa-slider .aa-slider-area .seq-title span {
+  color: #ffbf00;
+}
+
+#aa-slider .aa-slider-area .seq .seq-next:hover, #aa-slider .aa-slider-area .seq .seq-next:focus {
+  background-color: #ffbf00;
+}
+
+#aa-slider .aa-slider-area .seq .seq-prev:hover, #aa-slider .aa-slider-area .seq .seq-prev:focus {
+  background-color: #ffbf00;
+}
+
+.aa-products-tab li a:hover, .aa-products-tab li a:focus {
+  border-bottom: 1px solid #ffbf00;
+}
+
+.aa-products-tab li.active a {
+  border-bottom: 1px solid #ffbf00 !important;
+}
+
+.aa-products-tab li.active a:hover, .aa-products-tab li.active a:focus {
+  border-bottom: 1px solid #ffbf00;
+}
+
+.aa-product-catg li figure .aa-add-card-btn:hover {
+  color: #ffbf00;
+}
+
+.aa-product-catg li .aa-product-title a:hover, .aa-product-catg li .aa-product-title a:focus {
+  color: #ffbf00;
+}
+
+.aa-product-catg li .aa-product-price {
+  color: #ffbf00;
+}
+
+.aa-product-catg li .aa-product-hvr-content a:hover, .aa-product-catg li .aa-product-hvr-content a:focus {
+  color: #ffbf00;
+}
+
+.aa-blog-details h2 a:hover, .aa-blog-details h2 a:focus {
+  color: #ffbf00;
+}
+.aa-profile-create-recipe-text:hover {
+  color: #ffbf00;
+}
+#aa-subscribe .aa-subscribe-area .aa-subscribe-form input[type="submit"] {
+  background: #ffbf00 none repeat scroll 0 0;
+  border: 1px solid #ffbf00;
+}
+
+.fa-thumbs-up, .fa-plus-circle, .fa-arrow-circle-up, .fa-gratipay, .fa-plus-square, .fa-minus-square {
+  color: #ffbf00;
+}
+
+.aa-profile-update .update-list li .delete-btn, .aa-profile-update .update-list li .update-btn {
+  background-color: #ffbf00;
+}
+
+.aa-profile-favorite .favorite-list li .favorite-delete-btn {
+  background-color: #ffbf00;
+}
+
+#create .create-area .create-left .create-recipe .aa-create-recipe-btn {
+  background-color: #ffbf00;
+  border: 1px solid #ffbf00;
+}
+
+#aa-search .aa-search-area .results .resultlist a:hover {
+  color: #ffbf00;
+}
